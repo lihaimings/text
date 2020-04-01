@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColoeTrackTextView">
+        <attr name="originColor" format="color" />
+        <attr name="changeColor" format="color" />
+    </declare-styleable>
+    
+    <declare-styleable name="BannerView">
+        <!-- 点选中的颜色值 -->
+        <attr name="dotIndicatorFocus" format="color|reference" />
+        <!-- 点默认的颜色值 -->
+        <attr name="dotIndicatorNormal" format="color|reference" />
+        <!-- 点的大小 -->
+        <attr name="dotSize" format="dimension"/>
+        <!-- 点的距离 -->
+        <attr name="dotDistance" format="dimension"/>
+        <!-- 点的位置 -->
+        <attr name="dotGravity" format="enum" >
+            <enum name="center" value="0" />
+            <enum name="left" value="1" />
+            <enum name="right" value="-1" />
+        </attr>
+        <!-- 底部颜色 -->
+        <attr name="bottomColor" format="color" />
+        <!-- 定义宽高比 -->
+        <attr name="widthProportion" format="float" />
+        <attr name="heigthProportion" format="float" />
+    </declare-styleable>
+
+    !--TagFlowLayout-->
+    <declare-styleable name="TagFlowLayout">
+        <attr name="max_select" format="integer" />
+        <attr name="tag_gravity">
+            <enum name="left" value="-1" />
+            <enum name="center" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="TrackIndicatorView"
+        >
+        <attr name="tabVisibleNums" format="integer" />
+
+    </declare-styleable>
+</resources>

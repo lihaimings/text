@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.haiming.myapplication.flowlayout.TagFlowLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/flow_layout"
+        app:max_select="3"
+        />
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="加载"
+        android:textSize="29sp"
+        android:layout_alignParentBottom="true"
+        />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="删除"
+        android:textSize="29sp"
+        android:layout_toRightOf="@id/insert"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="10dp"
+        />
+
+</RelativeLayout>

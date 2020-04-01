@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root_view"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    android:clipToPadding="false">
+    <com.haiming.myapplication.banner.BannerView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/banner_view"
+        app:dotSize="8dp"
+        app:dotDistance="10dp"
+        app:dotGravity="right"
+        app:bottomColor="@color/colorAccent"
+        app:dotIndicatorFocus="@color/red"
+        app:dotIndicatorNormal="@color/white"
+        app:widthProportion="7"
+        app:heigthProportion="6"
+        />
+
+
+</LinearLayout>
